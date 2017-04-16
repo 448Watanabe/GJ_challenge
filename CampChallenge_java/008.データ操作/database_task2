@@ -1,0 +1,22 @@
+課題２
+select * from profiles where profilesID = 3;
+
+課題３
+select * from profiles where name = "高橋清";
+
+課題４
+select * from profiles where age = 24;
+
+課題５
+select * from profiles where age <= 25;
+
+課題６
+select * from profiles where name like '%実%';
+
+課題７
+update profiles set name = '吉田茂' where profilesID = 2;
+select * from profiles;
+
+課題８
+update profiles set birthday = null where birthday = 20001224;
+select * from profiles;
